@@ -4,7 +4,7 @@ COPY main.c /app/
 
 RUN apk update && apk add build-base
 WORKDIR /app
-RUN gcc -o /app/main /app/main.c
+RUN gcc -o main main.c
 
 
 CMD ["./main"]
