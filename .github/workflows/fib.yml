@@ -24,7 +24,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
+          username: malpka8
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Log into dockerhub
