@@ -48,8 +48,8 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v3
         with:
-          cache-from: type=registry,ref=docker.io/bszabat5/main:buildcache
-          cache-to: type=registry,ref=docker.io/bszabat5/main:buildcache
+          cache-from: type=registry,ref=docker.io/bszabat5/main:cache
+          cache-to: type=registry,ref=docker.io/bszabat5/main:cache
           platforms: linux/arm64,linux/amd64
           context: ./
           push: true
