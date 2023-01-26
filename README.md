@@ -25,15 +25,3 @@ D. użyto akcji metadata obrazy nazywane są kolejno zgodnie ze standardem semve
 
 ![zad3d}(https://github.com/Malpka8/FibCalc/obrazy/Zadanie3_d.png)
 
-4.
-A. Aby sprawdzić obecność pliku fib.yml jako opisu workflow w Github Action należy wykorzystać polecenia gh workflow list i gh workflow view 42896863
-
-Obowiazkowa_4A.png
-
-B. Aby uruchomić GitHub Action należy wykorzystać polecenia gh workflow run 42896863 i gh run watch
-
-Obowiazkowa_4B.png
-
-C. Aby pobrać własny obraz i uruchomić kontener należy wykorzystać polecenie docker run -it --rm ghcr.io/thenikesz/fibcalc:1.1.0
-
-Obowiazkowa_4C.png
