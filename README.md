@@ -1,4 +1,4 @@
-## CZĘŚĆ OBOWIĄZKOWA
+## Część obowiązkowa
 ### 1. 
 Wykorzystany algorytm działa na bardzo prostej zasadzie dodając do siebie kolejne wyrazy w pętli. Polecenia użyte do stworzenia repozytorium na github:
 ```
@@ -22,7 +22,8 @@ Do zbudowania oraz uruchomienia obrazu wykorzystałem polecenie ```docker run -i
 ![zad2c](obrazy/Zadanie2_c.png)
 
 ### 3.
-D. użyto akcji metadata obrazy nazywane są kolejno zgodnie ze standardem semver np. 1.0.0
+D. użyto akcji metadata, obrazy nazywane są kolejno zgodnie ze standardem semver np. 1.0.0
 
-![zad3d](obrazy/Zadanie3_d.png)
+### 4.
+
 
