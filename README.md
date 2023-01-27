@@ -7,7 +7,7 @@ git add .
 git commit -m "First commit"
 gh repo create FibCalc --public --source=. --remote=FibCalc --push
 ```
-![zad1a](https://github.com/Malpka8/FibCalc/tree/main/obrazy/Zadanie1.png)
+![zad1a](obrazy/Zadanie1.png)
 ### 2
 
 
