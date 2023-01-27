@@ -7,21 +7,21 @@ git add .
 git commit -m "First commit"
 gh repo create FibCalc --public --source=. --remote=FibCalc --push
 ```
-![zad1a}(https://github.com/Malpka8/FibCalc/obrazy/Zadanie1.png)
+![zad1a](https://github.com/Malpka8/FibCalc/obrazy/Zadanie1.png)
 ### 2
 
 #### B. 
 Do zbudowania obrazu wykorzystałem polecenie  ```docker build -t main .```
 
-![zad2b}(https://github.com/Malpka8/FibCalc/obrazy/Zadanie2_b.png)
+![zad2b](https://github.com/Malpka8/FibCalc/obrazy/Zadanie2_b.png)
 
 #### C. 
 Do zbudowania oraz uruchomienia obrazu wykorzystałem polecenie ```docker run -it --rm main ``` jako, że jest to aplikacja konsolowa należało wykorzystać opcje -it
 
-![zad2c}(https://github.com/Malpka8/FibCalc/obrazy/Zadanie2_c.png)
+![zad2c](https://github.com/Malpka8/FibCalc/obrazy/Zadanie2_c.png)
 
 ### 3.
 D. użyto akcji metadata obrazy nazywane są kolejno zgodnie ze standardem semver np. 1.0.0
 
-![zad3d}(https://github.com/Malpka8/FibCalc/obrazy/Zadanie3_d.png)
+![zad3d](https://github.com/Malpka8/FibCalc/obrazy/Zadanie3_d.png)
 
