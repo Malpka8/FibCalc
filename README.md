@@ -7,8 +7,9 @@ git add .
 git commit -m "First commit"
 gh repo create FibCalc --public --source=. --remote=FibCalc --push
 ```
-![zad1a](https://github.com/Malpka8/FibCalc/obrazy/Zadanie1.png)
+![zad1a](https://github.com/Malpka8/FibCalc/tree/main/obrazy/Zadanie1.png)
 ### 2
+
 
 #### B. 
 Do zbudowania obrazu wykorzystałem polecenie  ```docker build -t main .```
