@@ -36,4 +36,5 @@ Aby pobrać i uruchomić obraz można użyć komendy ```docker run -it ghcr.io/m
 ![zad4c](obrazy/Zadanie4_c.png)
 
 repozytorium na ghcr.io: https://github.com/malpka8/FibCalc/pkgs/container/fibcalc
+
 repozytorium docker.io: https://hub.docker.com/repository/docker/bszabat5/main/general
