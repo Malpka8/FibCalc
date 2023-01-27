@@ -8,9 +8,7 @@ git commit -m "First commit"
 gh repo create FibCalc --public --source=. --remote=FibCalc --push
 ```
 ![zad1a](obrazy/Zadanie1.png)
-### 2
-
-
+### 2.
 #### B. 
 Do zbudowania obrazu wykorzystałem polecenie  ```docker build -t main .```
 
@@ -29,11 +27,11 @@ D. użyto akcji metadata, obrazy nazywane są kolejno zgodnie ze standardem semv
 Opis fib.yml to Zadanie1 widzimy je po użyciu polecenia ```gh workflow list``` po wyświetleniu workflow za pomocą ```gh workflow view 46583297 ``` widzimy że nazwa .yml dla tego workflow to fib.yml
 ![zad4a](obrazy/Zadanie4_a.png)
 
-####B
+#### B.
 Uruchamiamy GitHub Action za pomocą polecenia ```gh workflow run 46583297``` i ```gh run watch```
 ![zad4b](obrazy/Zadanie4_b.png)
 
-####C
+#### C.
 Aby pobrać i uruchomić obraz można użyć komendy ```docker run -it ghcr.io/malpka8/fibcalc:latest```
 ![zad4c](obrazy/Zadanie4_c.png)
 
